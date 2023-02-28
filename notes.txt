@@ -47,3 +47,21 @@ Sugestão de extensões:
 - Prettier - Code Formatter 
 preferências -> configurações -> default formatter -> Editor: Default Formatter
 preferências -> configurações -> format on save -> Marcar "format a file on save"
+
+Módulos de terceiros:
+
+Nodemon (3 formas de instalar):
+Local: npm install nodemon
+Globalmente: npm install -g nodemon (se for usar em vários projetos)
+Em ambiente de desenvolvimento: npm install nodemon --save-dev (ou -D)
+
+Configurar:
+editar package.json
+
+em "scripts"
+
+"scripts": {
+	"start:dev": "nodemon index.js" ou ("dev": "nodemon index.js") <= exemplo
+}
+
+Revisar de 17:36 até 39:30

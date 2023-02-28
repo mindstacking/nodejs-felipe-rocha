@@ -4,7 +4,8 @@
   "description": "Curso de Node.js",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/mindstacking/nodejs-felipe-rocha/issues"
   },
-  "homepage": "https://github.com/mindstacking/nodejs-felipe-rocha#readme"
+  "homepage": "https://github.com/mindstacking/nodejs-felipe-rocha#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
 }
