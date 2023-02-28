@@ -1,0 +1,44 @@
+Curso de Node.js Para Completos Iniciantes
+https://www.youtube.com/watch?v=IOfDoyP1Aq0&t=963s
+Canal: Felipe Rocha • dicasparadevs
+
+Requisitos do curso:
+
+- Fundamento do JavaScript (objetos, arrays, condicionais etc)
+- JSON
+- HTTP (status code, headers)
+
+O que é Node.JS?
+
+- Ambiente que permite a execucação de código JavaScript fora de um navegador
+- Utiliza a V8 Engine (mesmo motor utilizado pelo Google Chrome)
+- É utilizado para construir APIs (back-ends)
+
+Como o Node.js funciona?
+
+- Possui apenas um núcleo (single threaded)
+- Suporta várias operações simultâneas (non-blocking)
+
+Vantagens do Node.js
+
+- Ótimo uso de memórira (baixo custo)
+- Harmonia com o front-end (ambos utilizam JavaScript)
+- Muito rápido, simples e escalável
+- Presença extremamente forte no mercado
+
+Módulos no Node.js
+
+- Podemos criar nossos próprios módulos (nossos arquivos) e importá-los
+- O Node.js vem com módulos pré-instalados (path, fs, https etc)
+- Para importar um módulo, utilizamos o CommonJS:
+
+NPM - Node Package Manager
+
+- Podemos instalar módulos de terceiros utilizando o NPM 
+- Esses módulos são armazenados em uma pasta chamada node_modules
+- Um arquivo chamado package.json lista todos os módulos que instalamos pelo NPM
+
+npm init // cria o package.json
+npm install express // instala um pacote localmente
+npm -g install nodemon // instala um pacote globalmente
+
