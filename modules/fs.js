@@ -1,23 +1,18 @@
-const fs = require("fs");
-const path = require("path");
+const fs = require('fs');
+const path = require('path');
 
 // criar uma pasta
-/*fs.mkdir(path.join(__dirname, "/test"), (error) => {
-  if (error) {
-    console.log("Error: " + error);
-  }
-
-  console.log("Pasta criada com sucesso.");
-});*/
-
-// criar um arquivo
-fs.writeFile(
-  path.join(__dirname, "/test", "test.txt"),
-  "hello Node.js",
-  (error) => {
-    if (error) {
-      return console.log("Error: " + error);
+fs.mkdir(path.join(__dirname, "/test"), (error) => {
+    if(error){
+        return console.log(error)
     }
-    console.log("Arquivo criado com sucesso");
-  }
-);
+    console.log("pasta criada")
+})
+
+// criar arquivo
+fs.writeFile(path.join(__dirname, 'test', 'produtos.txt'), 'hello node!', (error) => {
+    if(error){
+        return console.log(error)
+    }
+    console.log('arquivo criado com sucesso')
+})
